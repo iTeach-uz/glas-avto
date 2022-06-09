@@ -3,7 +3,7 @@
         <img src="http://avtooyna.uz/assets/img/logo.png" height="100px">
     </a>
     <h1 align="center">
-        <a href='avtooyna.uz'>Avto Oyna</a>
+        <a href='http://avtooyna.uz'>Avto Oyna</a>
     </h1>
     <br>
 </p>
