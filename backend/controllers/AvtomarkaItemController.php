@@ -163,6 +163,7 @@ class AvtomarkaItemController extends Controller
             $model->status = '0';
 
             $model->save(false);
+            // Ozgarishlar
 
             return $this->redirect(Yii::$app->request->referrer);
         }
