@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+     # Turn on the module.
+    #ExpiresActive on
+    # Set the default expiry times.
+    #ExpiresDefault "access plus 30 minutes"
+
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+  SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

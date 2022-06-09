@@ -1,0 +1,23 @@
+<?php
+
+use yii\helpers\Html;
+
+/* @var $this yii\web\View */
+/* @var $model common\models\Works */
+
+$this->title = Yii::t('app', 'Bo\'sh Ish O\'rinlari', [
+    // 'name' => $model->id,
+]);
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Bo\'sh Ish O\'rinlari'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => "Batafsil", 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = Yii::t('app', 'Tahrirlash');
+?>
+<div class="works-update">
+
+    <!-- <h1><?= Html::encode($this->title) ?></h1> -->
+
+    <?= $this->render('_form', [
+        'model' => $model,
+    ]) ?>
+
+</div>

@@ -1,0 +1,36 @@
+Options -Indexes
+IndexIgnore */*
+
+Options FollowSymLinks
+
+
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteEngine On
+
+RewriteRule ^admin(/.+)?$ backend/web/$1 [L,PT]
+RewriteRule ^admin/(.+)?$ backend/web/$1 [L,PT]
+
+RewriteRule ^restapi(/.+)?$ restapi/web/$1 [L,PT]
+RewriteRule ^restapi/(.+)?$ restapi/web/$1 [L,PT]
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin *
+</IfModule>
+
+# For imamges
+RewriteRule ^equipment(.+)?$ build/$1
+RewriteRule ^images(.+)?$ build/$1
+RewriteRule ^imagesss(.+)?$ build/$1
+RewriteRule ^labaratorya(.+)?$ build/$1
+RewriteRule ^nomen(.+)?$ build/$1
+RewriteRule ^oynalar(.+)?$ build/$1
+RewriteRule ^upload(.+)?$ build/$1
+
+# RewriteRule ^(.+)?$ /frontend/web/$1
+RewriteRule ^(.+)?$ build/$1

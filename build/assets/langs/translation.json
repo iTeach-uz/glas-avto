@@ -1,0 +1,212 @@
+{
+  "ourAddress": {
+    "uz": "Bizning manzil",
+    "ru": "Наш адресс",
+    "en": "Our address"
+  },
+  "contact": {
+    "uz": "Biz bilan aloqa",
+    "ru": "Связаться с нами",
+    "en": "Contact us"
+  },
+  "getConsult": {
+    "uz": "Konsultatsiya olish",
+    "ru": "Получить консультацию",
+    "en": "Get a consultation"
+  },
+  "ourAddressName": {
+    "uz": "Farg’ona sh, Istiqlol 1A uy",
+    "ru": "г. Фергана, дом Истиклол 1А",
+    "en": "Fergana city, Istiqlol 1A house"
+  },
+  "detail": {
+    "uz": "Batafsil",
+    "ru": "Подробнее",
+    "en": "Read more"
+  },
+  "workDays": {
+    "uz": "Dushanba - Juma",
+    "ru": "Понедельник - Пятница",
+    "en": "Monday - Friday"
+  },
+  "emailAddress": {
+    "uz": "Elektron manzilimiz",
+    "ru": "Наш электронной почты",
+    "en": "Our email address"
+  },
+  "dealContact": {
+    "uz": "Shartnoma tuzish uchun aloqa:",
+    "ru": "Контакт для заключения договора:",
+    "en": "Contact for contract:"
+  },
+  "ourAdvantages": {
+    "uz": "Bizning afzalliklarimiz",
+    "ru": "Наши преимущества",
+    "en": "Our advantages"
+  },
+  "certificates": {
+    "uz": "Sertifikatlar",
+    "ru": "Сертификаты",
+    "en": "Certificates"
+  },
+  "viewAll": {
+    "uz": "Barchasini ko'rish",
+    "ru": "Увидеть их всех",
+    "en": "See them all"
+  },
+  "photos": {
+    "uz": "Fotosuratlar",
+    "ru": "Фотографии",
+    "en": "Photos"
+  },
+  "news": {
+    "uz": "Yangiliklar",
+    "ru": "Новости",
+    "en": "News"
+  },
+  "newsDesc": {
+    "uz": "Korporativ mijozlar va jismoniy shaxslar uchun turli xildagi tovarlarni etkazib berish",
+    "ru": "Поставка различных товаров для корпоративных клиентов и частных лиц",
+    "en": "Supply of various goods for corporate clients and individuals"
+  },
+  "ourPartners": {
+    "uz": "Bizning hamkorlar",
+    "ru": "Наши партнеры",
+    "en": "Our partners"
+  },
+  "contests": {
+    "uz": "Tanlovlar",
+    "ru": "Конкурсы",
+    "en": "Contests"
+  },
+  "aboutOav": {
+    "uz": "OAV Biz haqimizda",
+    "ru": "СМИ о нас",
+    "en": "The media is about us"
+  },
+  "leadership": {
+    "uz": "Rahbariyat",
+    "ru": "Руководство",
+    "en": "Management"
+  },
+  "vacancies": {
+    "uz": "Bosh ish o’rinlari",
+    "ru": "Вакансии",
+    "en": "Jobs"
+  },
+  "download": {
+    "uz": "Yuklab olish",
+    "ru": "Скачать",
+    "en": "Download"
+  },
+  "back": {
+    "uz": "Orqaga qaytish",
+    "ru": "Назад",
+    "en": "Back"
+  },
+  "downloadResume": {
+    "uz": "Rezyume blankasini yuklab oling",
+    "ru": "Скачать бланк резюме",
+    "en": "Download resume form"
+  },
+  "resumeBlank": {
+    "uz": "Rezyume blankasi",
+    "ru": "Бланк резюме",
+    "en": "Resume form"
+  },
+  "fillResume": {
+    "uz": "Rezyumeni to'ldiring",
+    "ru": "Заполнить резюме",
+    "en": "Fill out a resume"
+  },
+  "downloadedResumeFill": {
+    "uz": "Yuklangan rezyume shaklini to'ldiring",
+    "ru": "Заполните скачанный бланк резюме",
+    "en": "Fill out the downloaded resume form"
+  },
+  "sendToUs": {
+    "uz": "Bizga yuboring",
+    "ru": "Отправьте его нам",
+    "en": "Send it to us"
+  },
+  "filledResumeSend": {
+    "uz": "To'ldirilgan rezyumeni bizga, yani info@avtooyna.uz elektron manziliga yuboring",
+    "ru": "Отправьте заполненное резюме к нам на почту info@avtooyna.uz",
+    "en": "Send your completed CV to us at info@avtooyna.uz"
+  },
+  "nomenclature": {
+    "uz": "Nomenklatura",
+    "ru": "Номенклатура",
+    "en": "Nomenclature"
+  },
+  "detailNumber": {
+    "uz": "Detal raqami",
+    "ru": "Номер детали",
+    "en": "Detail number"
+  },
+  "model": {
+    "uz": "Model",
+    "ru": "Модель",
+    "en": "Model"
+  },
+  "view": {
+    "uz": "Ko'rinishi",
+    "ru": "Вид",
+    "en": "View"
+  },
+  "detailName": {
+    "uz": "Detal nomi",
+    "ru": "Наименование детали",
+    "en": "The name of detail"
+  },
+  "name": {
+    "uz": "Ism",
+    "ru": "Имя",
+    "en": "Name"
+  },
+  "email": {
+    "uz": "Elektron pochta",
+    "ru": "Эл. адрес",
+    "en": "Email"
+  },
+  "requiredFile": {
+    "uz": "Bu maydonni to'ldirish majburiy",
+    "ru": "Данное поле является обязательным к заполнению",
+    "en": "This is a required field"
+  },
+  "telNumber": {
+    "uz": "Tel raqami",
+    "ru": "Номер телефона",
+    "en": "Phone number"
+  },
+  "videogallery": {
+    "uz": "Videogalereya",
+    "ru": "Видео галерея",
+    "en": "Video gallery"
+  },
+  "menu": {
+    "uz": "MENU",
+    "ru": "МЕНЮ",
+    "en": "MENU"
+  },
+  "send": {
+    "uz": "Yuborish",
+    "ru": "Отправить",
+    "en": "Send"
+  },
+  "youMustAcceptTerms": {
+    "uz": "Shartlarga rozi bo'lishingiz kerak",
+    "ru": "Вы должны согласиться с условиями",
+    "en": "You should agree to the terms"
+  },
+  "avtoBrands": {
+    "uz": "Avtomobil markalari",
+    "ru": "Марки автомобилей",
+    "en": "Car brands"
+  },
+  "thanksFormSent": {
+      "uz": "Rahmat! Forma yuborildi",
+      "ru": "Спасибо! Форма отправлена",
+      "en": "Thank you! Form sent"
+    }
+}

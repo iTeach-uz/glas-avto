@@ -1,0 +1,2 @@
+.container .news_images{border-radius:12px;height:400px;overflow:hidden;width:100%}.container .news_images:hover img{-webkit-transform:scale(var(--scale));transform:scale(var(--scale))}.container .news_images img{border-radius:inherit;height:100%;object-fit:cover;transition:-webkit-transform var(--duration) var(--timing);transition:transform var(--duration) var(--timing);transition:transform var(--duration) var(--timing),-webkit-transform var(--duration) var(--timing);width:100%}
+/*# sourceMappingURL=180.9379c531.chunk.css.map*/

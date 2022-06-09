@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/848.c84303b8.chunk.css","mappings":"AAAA,4BACE,aAAc,CACd,eAAgB","sources":["pages/Contest/InsideContest/_style.scss"],"sourcesContent":[".inside_contest_footer_text {\r\n  display: block;\r\n  margin-top: 50px;\r\n}\r\n"],"names":[],"sourceRoot":""}
